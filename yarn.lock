@@ -2866,6 +2866,11 @@ inherits@2, inherits@2.0.4, inherits@^2.0.3, inherits@^2.0.4, inherits@~2.0.3:
   resolved "https://registry.yarnpkg.com/inherits/-/inherits-2.0.4.tgz#0fa2c64f932917c3433a0ded55363aae37416b7c"
   integrity sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==
 
+instabug-reactnative@^11.6.0:
+  version "11.6.0"
+  resolved "https://registry.yarnpkg.com/instabug-reactnative/-/instabug-reactnative-11.6.0.tgz#59de5d3fb034ec70ba31de8afd8abb4ccfbab5ba"
+  integrity sha512-U8oNkGY2fvGnqt7zLF4CMUDtWXA/Zqx+en5Z+8of71sUv5mWpASsbktU/yr+nLmmbr+quWSDoP9N3xbyFCqEkA==
+
 internal-slot@^1.0.3, internal-slot@^1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/internal-slot/-/internal-slot-1.0.4.tgz#8551e7baf74a7a6ba5f749cfb16aa60722f0d6f3"
