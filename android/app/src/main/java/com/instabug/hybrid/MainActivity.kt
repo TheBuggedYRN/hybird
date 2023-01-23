@@ -13,8 +13,14 @@ class MainActivity : AppCompatActivity() {
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        binding.buttonMain.setOnClickListener {
+
+        binding.buttonReactNative.setOnClickListener {
             val intent = Intent(this@MainActivity, ReactNativeAppActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.buttonSettings.setOnClickListener {
+            val intent = Intent(this@MainActivity, SettingsActivity::class.java)
             startActivity(intent)
         }
     }

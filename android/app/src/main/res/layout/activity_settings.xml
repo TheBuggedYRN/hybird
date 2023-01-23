@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:padding="24dp"
     android:gravity="center"
-    tools:context=".MainActivity">
+    tools:context=".SettingsActivity">
 
     <ImageView
         android:src="@mipmap/ic_launcher_round"
@@ -19,18 +19,6 @@
         android:layout_height="wrap_content"
         android:textStyle="bold"
         android:textSize="21sp"
-        android:text="Android App" />
-
-    <Button
-        android:id="@+id/button_react_native"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="React Native" />
-
-    <Button
-        android:id="@+id/button_settings"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:text="Settings" />
 
 </LinearLayout>
