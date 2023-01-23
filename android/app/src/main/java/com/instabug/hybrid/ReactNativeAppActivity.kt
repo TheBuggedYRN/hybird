@@ -37,7 +37,7 @@ class ReactNativeAppActivity : Activity(), DefaultHardwareBackBtnHandler {
 
         // The string here (e.g. "MyReactNativeApp") has to match
         // the string in AppRegistry.registerComponent() in index.js
-        mReactRootView.startReactApplication(mReactInstanceManager, "HybirdApp", null)
+        mReactRootView.startReactApplication(mReactInstanceManager, "HybridApp", null)
         setContentView(mReactRootView)
     }
 
