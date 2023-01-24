@@ -1,9 +1,20 @@
 /* eslint-disable react-native/no-inline-styles */
-import {ReactNode} from 'react';
+import {ReactNode, useEffect} from 'react';
 import React from 'react';
-import {Image, SafeAreaView, Text} from 'react-native';
+import {Image, Platform, SafeAreaView, Text} from 'react-native';
+import Instabug from 'instabug-reactnative';
 
 const App: () => ReactNode = () => {
+  useEffect(() => {
+    const appToken = Platform.select({
+      android: 'f163dafcad22d79fb3653d3b6458729e',
+      ios: '848c06050b6d335fc4dca473c9a8a9d9',
+    })!;
+
+    console.log('Instabug-Hybrid', 'starting from RN');
+    Instabug.start(appToken, [Instabug.invocationEvent.floatingButton]);
+  }, []);
+
   return (
     <SafeAreaView
       style={{
