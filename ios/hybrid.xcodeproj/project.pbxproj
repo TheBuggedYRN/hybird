@@ -7,22 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E15A3FC297D4CA500876024 /* HybridApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E15A3FB297D4CA500876024 /* HybridApp.swift */; };
-		0E15A3FE297D4CA500876024 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E15A3FD297D4CA500876024 /* ContentView.swift */; };
-		0E15A400297D4CA500876024 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E15A3FF297D4CA500876024 /* Assets.xcassets */; };
-		0E15A403297D4CA500876024 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E15A402297D4CA500876024 /* Preview Assets.xcassets */; };
+		0E58ECD9297EDACD00D08A7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E58ECD8297EDACD00D08A7A /* AppDelegate.swift */; };
+		0E58ECDB297EDACD00D08A7A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E58ECDA297EDACD00D08A7A /* SceneDelegate.swift */; };
+		0E58ECDD297EDACD00D08A7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E58ECDC297EDACD00D08A7A /* ViewController.swift */; };
+		0E58ECE0297EDACD00D08A7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E58ECDE297EDACD00D08A7A /* Main.storyboard */; };
+		0E58ECE2297EDACE00D08A7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E58ECE1297EDACE00D08A7A /* Assets.xcassets */; };
+		0E58ECE5297EDACE00D08A7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E58ECE3297EDACE00D08A7A /* LaunchScreen.storyboard */; };
+		0EB8B115297FC09F0079D5EB /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EB8B114297FC09F0079D5EB /* Settings.storyboard */; };
+		0EBA5831297FD82F00E41E49 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBA5830297FD82F00E41E49 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0E15A3F8297D4CA500876024 /* hybrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hybrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0E15A3FB297D4CA500876024 /* HybridApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HybridApp.swift; sourceTree = "<group>"; };
-		0E15A3FD297D4CA500876024 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		0E15A3FF297D4CA500876024 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0E15A402297D4CA500876024 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0E58ECD5297EDACD00D08A7A /* Hybrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hybrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E58ECD8297EDACD00D08A7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0E58ECDA297EDACD00D08A7A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0E58ECDC297EDACD00D08A7A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0E58ECDF297EDACD00D08A7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0E58ECE1297EDACE00D08A7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0E58ECE4297EDACE00D08A7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0E58ECE6297EDACE00D08A7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EB8B114297FC09F0079D5EB /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		0EBA5830297FD82F00E41E49 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0E15A3F5297D4CA500876024 /* Frameworks */ = {
+		0E58ECD2297EDACD00D08A7A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,69 +41,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0E15A3EF297D4CA500876024 = {
+		0E58ECCC297EDACD00D08A7A = {
 			isa = PBXGroup;
 			children = (
-				0E15A3FB297D4CA500876024 /* HybridApp.swift */,
-				0E15A3FD297D4CA500876024 /* ContentView.swift */,
-				0E15A3FF297D4CA500876024 /* Assets.xcassets */,
-				0E15A401297D4CA500876024 /* Preview Content */,
-				0E15A3F9297D4CA500876024 /* Products */,
+				0E58ECD7297EDACD00D08A7A /* Hybrid */,
+				0E58ECD6297EDACD00D08A7A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		0E15A3F9297D4CA500876024 /* Products */ = {
+		0E58ECD6297EDACD00D08A7A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0E15A3F8297D4CA500876024 /* hybrid.app */,
+				0E58ECD5297EDACD00D08A7A /* Hybrid.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0E15A401297D4CA500876024 /* Preview Content */ = {
+		0E58ECD7297EDACD00D08A7A /* Hybrid */ = {
 			isa = PBXGroup;
 			children = (
-				0E15A402297D4CA500876024 /* Preview Assets.xcassets */,
+				0E58ECD8297EDACD00D08A7A /* AppDelegate.swift */,
+				0E58ECDA297EDACD00D08A7A /* SceneDelegate.swift */,
+				0E58ECDC297EDACD00D08A7A /* ViewController.swift */,
+				0E58ECDE297EDACD00D08A7A /* Main.storyboard */,
+				0E58ECE1297EDACE00D08A7A /* Assets.xcassets */,
+				0E58ECE3297EDACE00D08A7A /* LaunchScreen.storyboard */,
+				0E58ECE6297EDACE00D08A7A /* Info.plist */,
+				0EB8B114297FC09F0079D5EB /* Settings.storyboard */,
+				0EBA5830297FD82F00E41E49 /* SettingsViewController.swift */,
 			);
-			path = "Preview Content";
+			path = Hybrid;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0E15A3F7297D4CA500876024 /* hybrid */ = {
+		0E58ECD4297EDACD00D08A7A /* Hybrid */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0E15A406297D4CA500876024 /* Build configuration list for PBXNativeTarget "hybrid" */;
+			buildConfigurationList = 0E58ECE9297EDACE00D08A7A /* Build configuration list for PBXNativeTarget "Hybrid" */;
 			buildPhases = (
-				0E15A3F4297D4CA500876024 /* Sources */,
-				0E15A3F5297D4CA500876024 /* Frameworks */,
-				0E15A3F6297D4CA500876024 /* Resources */,
+				0E58ECD1297EDACD00D08A7A /* Sources */,
+				0E58ECD2297EDACD00D08A7A /* Frameworks */,
+				0E58ECD3297EDACD00D08A7A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = hybrid;
-			productName = hybrid;
-			productReference = 0E15A3F8297D4CA500876024 /* hybrid.app */;
+			name = Hybrid;
+			productName = Hybrid;
+			productReference = 0E58ECD5297EDACD00D08A7A /* Hybrid.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0E15A3F0297D4CA500876024 /* Project object */ = {
+		0E58ECCD297EDACD00D08A7A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					0E15A3F7297D4CA500876024 = {
+					0E58ECD4297EDACD00D08A7A = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = 0E15A3F3297D4CA500876024 /* Build configuration list for PBXProject "hybrid" */;
+			buildConfigurationList = 0E58ECD0297EDACD00D08A7A /* Build configuration list for PBXProject "Hybrid" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -102,42 +116,65 @@
 				en,
 				Base,
 			);
-			mainGroup = 0E15A3EF297D4CA500876024;
-			productRefGroup = 0E15A3F9297D4CA500876024 /* Products */;
+			mainGroup = 0E58ECCC297EDACD00D08A7A;
+			productRefGroup = 0E58ECD6297EDACD00D08A7A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0E15A3F7297D4CA500876024 /* hybrid */,
+				0E58ECD4297EDACD00D08A7A /* Hybrid */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0E15A3F6297D4CA500876024 /* Resources */ = {
+		0E58ECD3297EDACD00D08A7A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E15A403297D4CA500876024 /* Preview Assets.xcassets in Resources */,
-				0E15A400297D4CA500876024 /* Assets.xcassets in Resources */,
+				0E58ECE5297EDACE00D08A7A /* LaunchScreen.storyboard in Resources */,
+				0E58ECE2297EDACE00D08A7A /* Assets.xcassets in Resources */,
+				0E58ECE0297EDACD00D08A7A /* Main.storyboard in Resources */,
+				0EB8B115297FC09F0079D5EB /* Settings.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0E15A3F4297D4CA500876024 /* Sources */ = {
+		0E58ECD1297EDACD00D08A7A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E15A3FE297D4CA500876024 /* ContentView.swift in Sources */,
-				0E15A3FC297D4CA500876024 /* HybridApp.swift in Sources */,
+				0E58ECDD297EDACD00D08A7A /* ViewController.swift in Sources */,
+				0E58ECD9297EDACD00D08A7A /* AppDelegate.swift in Sources */,
+				0E58ECDB297EDACD00D08A7A /* SceneDelegate.swift in Sources */,
+				0EBA5831297FD82F00E41E49 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		0E58ECDE297EDACD00D08A7A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E58ECDF297EDACD00D08A7A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0E58ECE3297EDACE00D08A7A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E58ECE4297EDACE00D08A7A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		0E15A404297D4CA500876024 /* Debug */ = {
+		0E58ECE7297EDACE00D08A7A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -197,7 +234,7 @@
 			};
 			name = Debug;
 		};
-		0E15A405297D4CA500876024 /* Release */ = {
+		0E58ECE8297EDACE00D08A7A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -251,20 +288,18 @@
 			};
 			name = Release;
 		};
-		0E15A407297D4CA500876024 /* Debug */ = {
+		0E58ECEA297EDACE00D08A7A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Preview Content\"";
-				DEVELOPMENT_TEAM = 4A3BW4D67B;
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = Hybrid/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -272,7 +307,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.instabug.hybrid;
+				PRODUCT_BUNDLE_IDENTIFIER = com.instabug.Hybrid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -280,20 +315,18 @@
 			};
 			name = Debug;
 		};
-		0E15A408297D4CA500876024 /* Release */ = {
+		0E58ECEB297EDACE00D08A7A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Preview Content\"";
-				DEVELOPMENT_TEAM = 4A3BW4D67B;
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = Hybrid/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -301,7 +334,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.instabug.hybrid;
+				PRODUCT_BUNDLE_IDENTIFIER = com.instabug.Hybrid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -312,25 +345,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0E15A3F3297D4CA500876024 /* Build configuration list for PBXProject "hybrid" */ = {
+		0E58ECD0297EDACD00D08A7A /* Build configuration list for PBXProject "Hybrid" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0E15A404297D4CA500876024 /* Debug */,
-				0E15A405297D4CA500876024 /* Release */,
+				0E58ECE7297EDACE00D08A7A /* Debug */,
+				0E58ECE8297EDACE00D08A7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0E15A406297D4CA500876024 /* Build configuration list for PBXNativeTarget "hybrid" */ = {
+		0E58ECE9297EDACE00D08A7A /* Build configuration list for PBXNativeTarget "Hybrid" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0E15A407297D4CA500876024 /* Debug */,
-				0E15A408297D4CA500876024 /* Release */,
+				0E58ECEA297EDACE00D08A7A /* Debug */,
+				0E58ECEB297EDACE00D08A7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0E15A3F0297D4CA500876024 /* Project object */;
+	rootObject = 0E58ECCD297EDACD00D08A7A /* Project object */;
 }
