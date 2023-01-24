@@ -3,31 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0E58ECD9297EDACD00D08A7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E58ECD8297EDACD00D08A7A /* AppDelegate.swift */; };
 		0E58ECDB297EDACD00D08A7A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E58ECDA297EDACD00D08A7A /* SceneDelegate.swift */; };
-		0E58ECDD297EDACD00D08A7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E58ECDC297EDACD00D08A7A /* ViewController.swift */; };
+		0E58ECDD297EDACD00D08A7A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E58ECDC297EDACD00D08A7A /* MainViewController.swift */; };
 		0E58ECE0297EDACD00D08A7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E58ECDE297EDACD00D08A7A /* Main.storyboard */; };
 		0E58ECE2297EDACE00D08A7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E58ECE1297EDACE00D08A7A /* Assets.xcassets */; };
 		0E58ECE5297EDACE00D08A7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E58ECE3297EDACE00D08A7A /* LaunchScreen.storyboard */; };
 		0EB8B115297FC09F0079D5EB /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EB8B114297FC09F0079D5EB /* Settings.storyboard */; };
 		0EBA5831297FD82F00E41E49 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBA5830297FD82F00E41E49 /* SettingsViewController.swift */; };
+		EDB48C7480ACEB98104B9268 /* Pods_Hybrid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C397EB954A79792D3D302FF1 /* Pods_Hybrid.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0E58ECD5297EDACD00D08A7A /* Hybrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hybrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E58ECD8297EDACD00D08A7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0E58ECDA297EDACD00D08A7A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0E58ECDC297EDACD00D08A7A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0E58ECDC297EDACD00D08A7A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		0E58ECDF297EDACD00D08A7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0E58ECE1297EDACE00D08A7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E58ECE4297EDACE00D08A7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E58ECE6297EDACE00D08A7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0EB8B114297FC09F0079D5EB /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
 		0EBA5830297FD82F00E41E49 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		A28A2F1A346C3A9F5B8D800D /* Pods-Hybrid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hybrid.release.xcconfig"; path = "Target Support Files/Pods-Hybrid/Pods-Hybrid.release.xcconfig"; sourceTree = "<group>"; };
+		A435CA8D9663E97FA97BA141 /* Pods-Hybrid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hybrid.debug.xcconfig"; path = "Target Support Files/Pods-Hybrid/Pods-Hybrid.debug.xcconfig"; sourceTree = "<group>"; };
+		C397EB954A79792D3D302FF1 /* Pods_Hybrid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hybrid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDB48C7480ACEB98104B9268 /* Pods_Hybrid.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +51,8 @@
 			children = (
 				0E58ECD7297EDACD00D08A7A /* Hybrid */,
 				0E58ECD6297EDACD00D08A7A /* Products */,
+				520312F8DF17B37216CAC869 /* Pods */,
+				1C09C4C201D78AF30555DC18 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,7 +69,7 @@
 			children = (
 				0E58ECD8297EDACD00D08A7A /* AppDelegate.swift */,
 				0E58ECDA297EDACD00D08A7A /* SceneDelegate.swift */,
-				0E58ECDC297EDACD00D08A7A /* ViewController.swift */,
+				0E58ECDC297EDACD00D08A7A /* MainViewController.swift */,
 				0E58ECDE297EDACD00D08A7A /* Main.storyboard */,
 				0E58ECE1297EDACE00D08A7A /* Assets.xcassets */,
 				0E58ECE3297EDACE00D08A7A /* LaunchScreen.storyboard */,
@@ -73,6 +80,23 @@
 			path = Hybrid;
 			sourceTree = "<group>";
 		};
+		1C09C4C201D78AF30555DC18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C397EB954A79792D3D302FF1 /* Pods_Hybrid.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		520312F8DF17B37216CAC869 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A435CA8D9663E97FA97BA141 /* Pods-Hybrid.debug.xcconfig */,
+				A28A2F1A346C3A9F5B8D800D /* Pods-Hybrid.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -80,9 +104,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E58ECE9297EDACE00D08A7A /* Build configuration list for PBXNativeTarget "Hybrid" */;
 			buildPhases = (
+				140FF0652A589039B10385BA /* [CP] Check Pods Manifest.lock */,
 				0E58ECD1297EDACD00D08A7A /* Sources */,
 				0E58ECD2297EDACD00D08A7A /* Frameworks */,
 				0E58ECD3297EDACD00D08A7A /* Resources */,
+				3E930AC3D4848FF84368012F /* [CP] Embed Pods Frameworks */,
+				92B5FE0DD6721D172AE167C6 /* [CP-User] [instabug-reactnative] Upload Sourcemap */,
 			);
 			buildRules = (
 			);
@@ -109,7 +136,7 @@
 				};
 			};
 			buildConfigurationList = 0E58ECD0297EDACD00D08A7A /* Build configuration list for PBXProject "Hybrid" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -140,12 +167,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		140FF0652A589039B10385BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hybrid-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E930AC3D4848FF84368012F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hybrid/Pods-Hybrid-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hybrid/Pods-Hybrid-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hybrid/Pods-Hybrid-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92B5FE0DD6721D172AE167C6 /* [CP-User] [instabug-reactnative] Upload Sourcemap */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] [instabug-reactnative] Upload Sourcemap";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\ncd ${PROJECT_DIR}\ncd ..\nif [ -s \"$HOME/.nvm/nvm.sh\" ]; then\n. \"$HOME/.nvm/nvm.sh\"\nelif [ -x \"$(command -v brew)\" ] && [ -s \"$(brew --prefix nvm)/nvm.sh\" ]; then\n. \"$(brew --prefix nvm)/nvm.sh\"\nfi\nexport NODE_BINARY=node\n\nINSTABUG_SOURCEMAPS_UPLOAD_DISABLE=$(echo $INSTABUG_SOURCEMAPS_UPLOAD_DISABLE | tr 'A-Z' 'a-z')\nif [ \"${INSTABUG_SOURCEMAPS_UPLOAD_DISABLE}\" = \"true\" ]; then\n    echo \"Instabug: Environment variable INSTABUG_SOURCEMAPS_UPLOAD_DISABLE was set to true, skipping sourcemap upload\"\n    exit 0\nfi\n\nif [ ! \"$INFOPLIST_FILE\" ] || [ -z \"$INFOPLIST_FILE\" ]; then\n    echo \"Instabug: INFOPLIST_FILE not found in Xcode build settings, skipping sourcemap upload\"\n    exit 0\nfi\n\nif [ ! \"${PROJECT_DIR}\" ] || [ -z \"${PROJECT_DIR}\" ]; then\n    echo \"Instabug: PROJECT_DIR not found in Xcode build settings, skipping sourcemap upload\"\n    exit 0\nfi\n\nPLIST_ABS_PATH=\"$PROJECT_DIR/$INFOPLIST_FILE\"\necho \"Instabug: PLIST_ABS_PATH: $PLIST_ABS_PATH\"\n\nif [ ! \"${INSTABUG_APP_TOKEN}\" ] || [ -z \"${INSTABUG_APP_TOKEN}\" ]; then\n    echo \"Instabug: Looking for Token...\"\n    INSTABUG_APP_TOKEN=$(grep -r --exclude-dir={node_modules,ios,android} \"Instabug.start[WithToken]*([\\\"\\'][0-9a-zA-Z]*[\\\"\\']\" ./ -m 1 | grep -o \"[\\\"\\'][0-9a-zA-Z]*[\\\"\\']\" | cut -d \"\\\"\" -f 2 | cut -d \"'\" -f 2)\nfi\n\nif [ ! \"${INSTABUG_APP_TOKEN}\" ] || [ -z \"${INSTABUG_APP_TOKEN}\" ]; then\n    echo \"Instabug: INSTABUG_APP_TOKEN not found. Make sure you've added the SDK initialization line Instabug.start Or added the environment variable INSTABUG_APP_TOKEN\"\n    exit 0\nelse\n    if [ ! \"${INSTABUG_APP_VERSION_CODE}\" ] || [ -z \"${INSTABUG_APP_VERSION_CODE}\" ]; then\n        INSTABUG_APP_VERSION_CODE=$(/usr/libexec/PlistBuddy -c 'print CFBundleVersion' ${PLIST_ABS_PATH} )\n        if [ ! \"${INSTABUG_APP_VERSION_CODE}\" ] || [ -z \"${INSTABUG_APP_VERSION_CODE}\" ]; then\n            echo \"CFBundleVersion could not be found, please upload the sourcemap files manually\"\n            exit 0\n        fi\n        INSTABUG_APP_VERSION_CODE_ENV=$(grep -o '$(.*)' <<< $INSTABUG_APP_VERSION_CODE | cut -d \"(\" -f2 | cut -d \")\" -f1)\n        if !([ ! \"${INSTABUG_APP_VERSION_CODE_ENV}\" ] || [ -z \"${INSTABUG_APP_VERSION_CODE_ENV}\" ]); then\n            INSTABUG_APP_VERSION_CODE=${!INSTABUG_APP_VERSION_CODE_ENV}\n            if [ ! \"${INSTABUG_APP_VERSION_CODE}\" ] || [ -z \"${INSTABUG_APP_VERSION_CODE}\" ]; then\n                echo \"Environment variable $INSTABUG_APP_VERSION_CODE_ENV was specified inside Info.plist but was not found, please upload the sourcemap files manually\" \n                exit 0\n            fi\n        fi\n    fi\n    if [ ! \"${INSTABUG_APP_VERSION_NAME}\" ] || [ -z \"${INSTABUG_APP_VERSION_NAME}\" ]; then\n        INSTABUG_APP_VERSION_NAME=$(/usr/libexec/PlistBuddy -c 'print CFBundleShortVersionString' ${PLIST_ABS_PATH} )\n        if [ ! \"${INSTABUG_APP_VERSION_NAME}\" ] || [ -z \"${INSTABUG_APP_VERSION_NAME}\" ]; then\n            echo \"CFBundleShortVersionString could not be found, please upload the sourcemap files manually\"\n            exit 0\n        fi\n        INSTABUG_APP_VERSION_NAME_ENV=$(grep -o '$(.*)' <<< $INSTABUG_APP_VERSION_NAME | cut -d \"(\" -f2 | cut -d \")\" -f1)\n        if !([ ! \"${INSTABUG_APP_VERSION_NAME_ENV}\" ] || [ -z \"${INSTABUG_APP_VERSION_NAME_ENV}\" ]); then\n            INSTABUG_APP_VERSION_NAME=${!INSTABUG_APP_VERSION_NAME_ENV}\n            if [ ! \"${INSTABUG_APP_VERSION_NAME}\" ] || [ -z \"${INSTABUG_APP_VERSION_NAME}\" ]; then\n                echo \"Environment variable $INSTABUG_APP_VERSION_NAME_ENV was specified inside Info.plist but was not found, please upload the sourcemap files manually\" \n                exit 0\n            fi\n        fi\n    fi\n    if [ -z \"${INSTABUG_ENTRY_FILE}\" ]; then \n        ENTRY_FILE='index.js'\n    else \n        ENTRY_FILE=${INSTABUG_ENTRY_FILE}\n    fi\n    if [ ! -f $ENTRY_FILE ]; then\n        echo \"Instabug: err: entry file not found. Make sure\" \"\\\"${ENTRY_FILE}\\\"\" \"exists in your projects root directory. Or add the environment variable INSTABUG_ENTRY_FILE with the name of your entry file\"\n        exit 0\n    fi\n    VERSION='{\"code\":\"'\"$INSTABUG_APP_VERSION_CODE\"'\",\"name\":\"'\"$INSTABUG_APP_VERSION_NAME\"'\"}'\n    echo \"Instabug: Token:\" \"\\\"\"${INSTABUG_APP_TOKEN}\"\\\"\"\n    echo \"Instabug: VERSION: $VERSION\"\n    echo \"Instabug: Entry file found\" \"\\\"\"${ENTRY_FILE}\"\\\"\"\n    echo \"Instabug: Generating sourcemap files...\"\n    HERMES_ENABLED=$(grep hermes-engine ./ios/Podfile.lock -m 1)\n    INSTALLED_RN_VERSION_MAJOR=$(node -p \"require('./node_modules/react-native/package.json').version\" | cut -d \".\" -f2)\n    if [[ ! -z \"$HERMES_ENABLED\" && \"$INSTALLED_RN_VERSION_MAJOR\" -ge 65 && \"$INSTALLED_RN_VERSION_MAJOR\" -lt 70 ]]; then\n        EXTRA_ARGS=\"--minify false\"\n    fi\n    #Generate ios sourcemap\n    npx react-native bundle --platform ios \\\n    --reset-cache \\\n    --entry-file $ENTRY_FILE \\\n    --dev false \\\n    --bundle-output ./ios/main.jsbundle \\\n    --sourcemap-output ./ios-sourcemap.json \\\n    $EXTRA_ARGS\n    \n    echo \"Instabug: Uploading files...\"\n    #Upload ios sourcemap\n    curl -X POST 'https://api.instabug.com/api/sdk/v3/symbols_files' -F \"app_version=${VERSION}\" -F \"symbols_file=@./ios-sourcemap.json\"  -F \"application_token=${INSTABUG_APP_TOKEN}\"  -F \"platform=react_native\"  -F \"os=ios\" \n    rm -rf ios-sourcemap.json\n    echo \nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0E58ECD1297EDACD00D08A7A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E58ECDD297EDACD00D08A7A /* ViewController.swift in Sources */,
+				0E58ECDD297EDACD00D08A7A /* MainViewController.swift in Sources */,
 				0E58ECD9297EDACD00D08A7A /* AppDelegate.swift in Sources */,
 				0E58ECDB297EDACD00D08A7A /* SceneDelegate.swift in Sources */,
 				0EBA5831297FD82F00E41E49 /* SettingsViewController.swift in Sources */,
@@ -210,6 +289,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -270,6 +350,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -290,6 +371,7 @@
 		};
 		0E58ECEA297EDACE00D08A7A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A435CA8D9663E97FA97BA141 /* Pods-Hybrid.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -317,6 +399,7 @@
 		};
 		0E58ECEB297EDACE00D08A7A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A28A2F1A346C3A9F5B8D800D /* Pods-Hybrid.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
