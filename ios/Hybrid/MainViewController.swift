@@ -1,5 +1,6 @@
 import UIKit
 import React
+import Instabug
 
 class MainViewController: UIViewController {
 
@@ -27,6 +28,24 @@ class MainViewController: UIViewController {
         let storyBoard : UIStoryboard = UIStoryboard(name: "Settings", bundle:nil)
         let nextViewController = storyBoard.instantiateViewController(withIdentifier: "Settings") as! SettingsViewController
         self.present(nextViewController, animated:true, completion:nil)
+    }
+    
+    @IBAction func throwHandled(_ sender: UIButton) {
+        let exception = NSException(name: NSExceptionName("Swift Handled Execption"), reason: "no reason")
+        
+        if let nonFatalException = CrashReporting.exception(exception) {
+            nonFatalException.userAttributes = [
+              "hello" : "world"
+            ]
+            nonFatalException.groupingString = "com.service.method.some_exception"
+            nonFatalException.level = .critical
+            nonFatalException.report()
+        }
+
+    }
+    
+    @IBAction func throwUnhandled(_ sender: UIButton) {
+
     }
 }
 

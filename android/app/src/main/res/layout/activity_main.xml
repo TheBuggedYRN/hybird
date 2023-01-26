@@ -33,4 +33,15 @@
         android:layout_height="wrap_content"
         android:text="Settings" />
 
+    <Button
+        android:id="@+id/button_handled"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Handled Crash" />
+
+    <Button
+        android:id="@+id/button_unhandled"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Unhandled Crash" />
 </LinearLayout>
